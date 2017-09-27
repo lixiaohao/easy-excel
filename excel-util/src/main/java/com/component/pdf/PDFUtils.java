@@ -7,12 +7,13 @@ import com.itextpdf.kernel.geom.PageSize;
 import com.itextpdf.kernel.pdf.PdfDocument;
 import com.itextpdf.kernel.pdf.PdfWriter;
 import com.itextpdf.layout.Document;
-import com.itextpdf.layout.element.*;
+import com.itextpdf.layout.element.Cell;
+import com.itextpdf.layout.element.Paragraph;
+import com.itextpdf.layout.element.Table;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -45,7 +46,7 @@ public class PDFUtils {
 		prePdf();
 	}
 
-	public byte[] creataPdf(List<Map<String,String>> data){
+	public byte[] creataPdf(com.itextpdf.layout.element.List<Map<String,String>> data){
 		byte[] pdfByte = null;
 
 		createTable();
@@ -113,7 +114,7 @@ public class PDFUtils {
 	 * 将数据填充到PDF中
 	 * @param data
 	 */
-	private void filDataTobody(List<Map<String,String>> data){
+	private void filDataTobody(com.itextpdf.layout.element.List<Map<String,String>> data){
 		for (Map<String,String> map:data) {
 			String[] values = getMapValueToArray(map);
 			process(table,values,false);

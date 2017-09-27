@@ -67,33 +67,33 @@ public class ImportTemplate {
 
 
 
-    public String getSheetName() {
-        return sheetName;
-    }
+//    public String getSheetName() {
+//        return sheetName;
+//    }
 
     public void setSheetName(String sheetName) {
         this.sheetName = sheetName;
     }
 
-    public Map<String, String> getHeadRow() {
-        return headRow;
-    }
+//    public Map<String, String> getHeadRow() {
+//        return headRow;
+//    }
 
     public void setHeadRow(Map<String, String> headRow) {
         this.headRow = headRow;
     }
-
-    public String getTitle() {
-        return title;
-    }
+//
+//    public String getTitle() {
+//        return title;
+//    }
 
     public void setTitle(String title) {
         this.title = title;
     }
 
-    public List<Map<String, String>> getValues() {
-        return values;
-    }
+//    public List<Map<String, String>> getValues() {
+//        return values;
+//    }
 
     public void setValues(List<Map<String, String>> values) {
         this.values = values;

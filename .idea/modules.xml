@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/excel.iml" filepath="$PROJECT_DIR$/excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excel-example/excel-example.iml" filepath="$PROJECT_DIR$/excel-example/excel-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excel-util/excel-util.iml" filepath="$PROJECT_DIR$/excel-util/excel-util.iml" />
     </modules>
   </component>
 </project>
